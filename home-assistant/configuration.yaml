@@ -1,1 +1,11 @@
+homeassistant:
+  name: Samuel Smart Home
+  time_zone: Europe/London
+  unit_system: metric
 
+default_config:
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+input_boolean: !include helpers/input_booleans.yaml
+input_button: !include helpers/input_buttons.yaml
