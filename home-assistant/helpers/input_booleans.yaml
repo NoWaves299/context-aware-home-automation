@@ -1,1 +1,15 @@
+sleep_mode:
+  name: Sleep Mode
+  icon: mdi:moon-waning-crescent
 
+in_bed:
+  name: In Bed
+  icon: mdi:bed
+
+room_occupied:
+  name: Room Occupied
+  icon: mdi:motion-sensor
+
+morning_mode:
+  name: Morning Mode
+  icon: mdi:weather-sunny
